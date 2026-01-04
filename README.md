@@ -73,12 +73,13 @@ Each Component has to be installed seperatly.
    platformAdmin.useHttps$Boolean=false
    sys.installationDir=/opt/appdynamics/platform
    ```
-   use silent installer method:
+   make the setup file executeable and use silent installer method:
    ```
-   platform-setup-64bit-windows.exe -q -varfile c:/response.varfile
+   chmod +x platform-setup-64bit-xxx.sh
+   platform-setup-64bit-xxx.sh -q -varfile c:/response.varfile
    ```
 
-6.
+   
 
 ---
 
