@@ -7,24 +7,30 @@ Appdynamics splunk has 3 main components:
 
 Each Component has to be installed seperatly.
 
-Controller & Enterprise Console:
+1-Controller & Enterprise Console:
 -
 1. Create Linux Server ( 16GB RAM, <50GB, 4 Cores )
 2. Install Ubunutu
 3. Open Ports 9191, 8090
+   
    ```
-   ufw allow
+   sudo ufw allow 9191/tcp
+   sudo ufw allow 8090/tcp
+   sudo ufw reload
 
    ```
 
 
 
-Event Services:
+2-Event Services:
 -
 1. Create Linux ( 16-32GB RAM, 1TB, 4 Cores)
 2. Install Ubuntu
 3. Open Ports 9080 :
+   
    ```
-   ufw allow
+   sudo ufw allow 9080/tcp
+   sudo ufw reload
+   
    ```
    
