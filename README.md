@@ -125,9 +125,9 @@ chmod +x platform-setup-64bit-xxx.sh
 
 ```
 
-### Step 5: Verification
+### Step 5: Verification & Express Install
 
-Once the installation finishes, navigate to server-ip-address:9191 and install Controller using the GUI
+Once the installation finishes, navigate to ```server-ip-address:9191``` and install Controller using the GUI.
 
 ---
 
