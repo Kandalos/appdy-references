@@ -23,12 +23,16 @@ Each Component has to be installed seperatly.
    sudo timedatectl set-timezone America/New_York
    ```
 
-5. Copy controller installer into /opt/appdynamics and execute the installer:
+5. Copy controller installer into ```/opt/appdynamics``` and execute the installer:
    First create the directory /opt/appdynamics
-   ``` sudo mkdir /opt/appdynamics```
+   ```
+   sudo mkdir /opt/appdynamics
+   ```
    Give it permissions:
-   ```sudo chown appdy:appdy /opt/appdynamics```
-   Copy files using scp
+   ```
+   sudo chown user:user /opt/appdynamics
+   ```
+   Finally Copy files using scp and run platform-setup-xxx.sh
 
 
 
