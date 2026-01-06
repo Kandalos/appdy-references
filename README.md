@@ -1,4 +1,4 @@
-# 🚀 Enterprise Observability with AppDynamics
+# Enterprise Observability with AppDynamics
 
 This repository serves as a comprehensive technical hub for deploying, configuring, and automating **AppDynamics** on Ubuntu Server environments. It transitions from **manual baseline installations** to **automated, self-healing infrastructure** using Terraform and Ansible.
 
