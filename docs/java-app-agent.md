@@ -3,6 +3,9 @@
 
 ## Install Java Agent (STANDARD)
 
+### Prequisites:
+  - Make sure your application server can communicate with controller and the database by opening the ports 8090 and 1433 (could be varied)
+
 ### 1. Unzip and Copy
 Unzip the app agent content and copy all the agent files to `/opt/appdynamics/appagent`.
 You can use **WinSCP** or a simple **SCP** command to move the file to your server:
