@@ -78,7 +78,7 @@ analytics.accountAccessKey=${your-access-key}
 
 ```
 
-#### **Optimize JVM Options**
+#### **Optimize JVM Options** (Optional)
 
 Adjust the memory allocation in the EUM Processor startup script to prevent `OutOfMemory` errors:
 
